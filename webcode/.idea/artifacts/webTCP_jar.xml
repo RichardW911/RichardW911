@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="webTCP:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/webTCP_jar</output-path>
+    <root id="archive" name="webTCP.jar">
+      <element id="module-output" name="webTCP" />
+    </root>
+  </artifact>
+</component>
