@@ -5,6 +5,7 @@ package com.TestDemo;
 */
 public class ThreadSingleleton {
 
+    //饿汉模式
 /*    static class Singleton {
         //1.将构造方法设置成私有的
         private Singleton() {}
@@ -17,7 +18,7 @@ public class ThreadSingleleton {
     }*/
 
 
-
+    //懒汉模式
     static class Singleton {
         //1.无参构造方法
         private Singleton() {}
@@ -35,6 +36,8 @@ public class ThreadSingleleton {
             return singleton;
         }
     }
+
+
     static Singleton s1 = null;
     static Singleton s2 = null;
 

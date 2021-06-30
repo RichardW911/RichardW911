@@ -116,4 +116,15 @@ class Solution1 {
     }
 }
 
+class sort {
+    public static void main(String[] args) {
+
+    }
+
+    public int[] quicksort(int[] nums) {
+        return nums;
+    }
+
+}
+
 

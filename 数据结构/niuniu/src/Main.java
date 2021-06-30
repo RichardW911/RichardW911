@@ -13,9 +13,11 @@ import java.io.*;
 
 
 import java.util.Scanner;
+import java.util.concurrent.Semaphore;
+import java.util.concurrent.TimeUnit;
 
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
         Stack<String> stack = new Stack<>();
         Scanner sc = new Scanner(System.in);
         int max = 0;
@@ -35,9 +37,9 @@ public class Main {
             }
             System.out.println(max);
         }
-
+        TimeUnit.SECONDS.sleep(100);
     }
-
+    Semaphore semaphore = new Semaphore(2,true);
 }
 
 
