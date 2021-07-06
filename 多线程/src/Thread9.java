@@ -23,7 +23,7 @@ public class Thread9 {
 
         //创建运动员
         Thread t1 =new Thread(group,runnable,"王睿杰");
-        Thread t2 = new Thread(group,runnable,"高雨萌");
+        Thread t2 = new Thread(group,runnable,"***");
 
         t1.start();
         t2.start();
